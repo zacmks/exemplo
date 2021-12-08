@@ -1,7 +1,7 @@
 import java.util.*
 import kotlin.collections.HashMap
 
-const val LIST_SIZE = 10000
+const val LIST_SIZE = 50000
 
 fun main(args: Array<String>) {
     // Cria lista e preenche números
@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
     println("Tempo de execução: ${fim - ini}")
 
     // Execução 2
-    ini = fim
+    ini = System.currentTimeMillis()
     total = somaValoresM(mapDeNumeros)
     fim = System.currentTimeMillis()
     println("Valor total: $total")

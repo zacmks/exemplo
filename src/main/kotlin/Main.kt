@@ -20,6 +20,7 @@ fun main(args: Array<String>) {
     ini = System.currentTimeMillis()
     total = somaValoresL(listaDeNumeros)
     fim = System.currentTimeMillis()
+    println("Execução 1")
     println("Valor total: $total")
     println("Tempo de execução: ${fim - ini}")
 
@@ -27,6 +28,7 @@ fun main(args: Array<String>) {
     ini = System.currentTimeMillis()
     total = somaValoresM(mapDeNumeros)
     fim = System.currentTimeMillis()
+    println("Execução 2")
     println("Valor total: $total")
     println("Tempo de execução: ${fim - ini}")
 }

@@ -40,7 +40,7 @@ fun somaValoresL(lista: List<Int>): Long {
 
 fun somaValoresM(lista: Map<String, Int>): Long {
     var total: Long = 0
-    for (i in 0..lista.size)
+    for (i in 0..lista.size - 1)
         total += lista[i.toString()] ?: 0
     return total
 }
